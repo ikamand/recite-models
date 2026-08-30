@@ -1,0 +1,3 @@
+# Files over GitHub's 100 MB limit live as release assets, not in git.
+pytorch_model.bin
+ggml-base-ar-quran-f16.bin

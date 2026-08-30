@@ -1,4 +1,9 @@
-# recite-archive
+# recite-models
+
+**The freeze rule:** the `models-v1` release tag and its asset filenames are
+NEVER renamed or deleted — shipped app versions in the wild hold those URLs
+forever. New or updated models are ADDED under new tags (`models-v2`, …),
+never by touching an existing one.
 
 Insurance copies of everything the "Recite with me" engine builds from, in
 case any upstream vanishes. See `docs/recite-library.md` in the
